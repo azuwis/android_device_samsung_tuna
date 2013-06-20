@@ -178,6 +178,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.hwui.disable_scissor_opt=true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+	debug.sf.nobootanimation=1
+
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_TAGS += dalvik.gc.type-precise
